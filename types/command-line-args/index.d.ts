@@ -84,6 +84,16 @@ declare namespace commandLineArgs {
          * One or more group names the option belongs to.
          */
         group?: string | string[];
+        
+        /**
+         * A text for usage help description. It is used if you share an option definition with command-line-usage.
+         */
+        description?: string;
+        
+        /**
+         * A text for usage sample value. It is used if you share an option definition with command-line-usage.
+         */
+        typeLabel?: string;
     }
 }
 
